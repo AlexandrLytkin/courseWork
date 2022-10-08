@@ -1,17 +1,21 @@
 package course;
 
 public class Employee { //класс сотрудника
-    static int counter;
-    private String name; //фио
+    private static int counter = 0;
+    private final String name; //фио
     private int department; //отдел
     private int salary; //зарплата
-    private int id;
+    private final int id;
 
     public Employee (String name, int department, int salary) { //конструктор с параметрами
         this.name = name;
         this.department = department;
         this.salary = salary;
         this.id = ++counter;
+    }
+
+    public static int getCounter() {
+        return counter;
     }
 
     public int getId() {
