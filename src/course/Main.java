@@ -2,7 +2,7 @@ package course;
 
 public class Main {
 
-    public static Employee[] employees = new Employee[10];
+    private static Employee[] employees = new Employee[10];
 
     public static void main(String[] args) {
         employees[0] = new Employee("Петров Петр Петрович ", 1, 600_006);
