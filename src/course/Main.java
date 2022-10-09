@@ -6,11 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
         employees[0] = new Employee("Петров Петр Петрович ", 1, 600_006);
-        //employees[1] = new Employee("Михайлов Михаил Михалыч ", 1, 100_500);
+        employees[1] = new Employee("Михайлов Михаил Михалыч ", 1, 100_500);
         employees[2] = new Employee("Сверистелов Сверистел Сверистелович ", 2, 123_321);
         employees[4] = new Employee("Адский Сатана Подземыч ", 3, 666_666);
         employees[5] = new Employee("Райский Иоан Отецыч ", 3, 333_333);
-        //employees[6] = new Employee("Неможенко Алескандр Александрович ", 1, 222_222);
+        employees[6] = new Employee("Неможенко Алескандр Александрович ", 1, 222_222);
         employees[7] = new Employee("Иоан Васильевич Грозный ", 2, 100);
         employees[9] = new Employee("Семенов Павел Семеныч ", 2, 302_102);
         employees[3] = new Employee("Семенов Аркадий Павлович ", 2, 201_102);

@@ -14,10 +14,6 @@ public class Employee { //класс сотрудника
         this.id = ++counter;
     }
 
-    public static int getCounter() {
-        return counter;
-    }
-
     public int getId() {
         return this.id;
     }
